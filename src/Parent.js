@@ -10,7 +10,7 @@ function Parent() {
 function handleChangeColor(newChildColor){
   const newRandomColor = getRandomColor();
   setColor (newRandomColor); 
-  setChildrenColor (newChildColor)
+  setChildrenColor (newChildColor);
 }
   return (
     <div className="parent" style={{ backgroundColor: color }}>
